@@ -1,1 +1,2 @@
-# web-dev-course-SSU-2021
+# SSU WEB Prictice 2021
+## Gadzhimuradov Ruslan, group 441
