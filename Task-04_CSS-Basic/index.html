@@ -1,117 +1,101 @@
-	<!DOCTYPE html>
-	<html lang="en">
-	<head>
-		<meta charset="UTF-8">
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<link rel="stylesheet" type="text/css" href="styles.css">
-		<title>GadzhimuradovRM</title>
-	</head>
-	<body onload="changeWidth()">
-		<header>
-			<script>
-				function changeWidth(){
-					let width = window.innerWidth;
-	        		document.getElementById("headerTable").style.width = width - 100 + "px";
-	        		document.getElementById("mainInfoTable").style.width = width - 100 + "px";
-	        		document.getElementById("footerTable").style.width = width - 100 + "px";
-	    		} 
-			</script>
-			<table id="headerTable" align="center">
-				<tr>
-					<td>
-						<img src="Images/ava.jpg" width="100" height="100" alt="avatar">
-						
-					</td>
-					<td>
-						<aside>
-							<h2>Gadzhimuradov Ruslan</h2>
-							<h3>Russia, Saratov</h3>
-						</aside>
-					</td>
-					<td>
-						<p align="right"><a href="mailto:gadjimuradov.ruslan@gmail.com">gadjimuradov.ruslan@gmail.com</a></p>
-	        			<p align="right"><a href="tel:+78886661111">+78886661111</a></p>
-					</td>
-				</tr>
-			</table>
-		</header>
-		<hr>
-		<section>
-			<h1 align="center">About me</h1>
-			<table id="mainInfoTable" align="left">
-				<tr>
-					<td><h2>Education:</h2></td>
-					<td>
-						<ol>
-							<li>
-								<p>September 2017 - May 2019 - Saratov State University, Faculty of Mechanics and Mathematics, Department of Applied Mathematics and Computer Science.
-								September 2019 - present - Saratov State University, Faculty of Computer Science and Information Technology, direction "Mathematical support and administration of Information systems".</p>
-							</li>
-							<li>
-								<p>September 2019 - present - Saratov State University, Faculty of Computer Science and Information Technology, direction "Mathematical support and administration of Information systems".</p>
-							</li>
-						</ol>
-					</td>
-				</tr>
-				<tr>
-					<td><h2>Experience:</h2></td>
-					<td>Year of work in the "RUBEZH" company.</td>
-				</tr>
-				<tr>
-					<td><h2>Skills:</h2></td>
-					<td>
-						<h3>Soft skills:</h3>
-						<ul>
-							<li>Communication</li>
-							<li>Teamwork</li>
-							<li>Critical thinking</li>
-							<li>Organizational</li>
-							<li>Leadership</li>
-							<li>Creativity</li>
-						</ul>
-						<h3>Hard skills:</h3>
-						<ul>
-							<li>Computer skills</li>
-							<li>Presentation skills</li>
-							<li>Writing skills</li>
-						</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><h2>Languages:</h2></td>
-					<td>
-					<ul>
-						<li><p>English: pre-intermediat</p></li>
-						<li><p>Russian: native</p></li>
+<!DOCTYPE html>
+<html lang="en">
 
-					</ul>
-					</td>
-				</tr>
-				<tr>
-					<td><h2>Programming languages:</h2></td>
-					<td>
-						<dl>
-	    					<dt>C#: 30%</dt>
-	    					<dd><progress value="30" max="100">sds</progress></dd>
+<head>
+    <meta charset="UTF-8">
+    <title>My blog</title>
+    <link rel="stylesheet" href='https://fonts.googleapis.com/css?family=JetBrains Mono'>
+    <link rel="stylesheet" href="styles.css">
+</head>
 
-	    					<dt>C++: 15%</dt>
-	    					<dd><progress value="15" max="100"></progress></dd>
+<body>
+    <header class="header">
+        <h1>The blog about my life</h1>
+    </header>
+    <aside class="menu">
+        <h2>Menu</h2>
+        <nav>
+            <ul class="menu-list">
+                <li>
+                    <a href="https://www.jetbrains.com/lp/mono/" target="blank">JetBrains Mono</a>
+                </li>
+                <li>
+                    <a href="https://validator.w3.org/#validate_by_input" target="blank">html validator</a>
+                </li>
+                <li>
+                    <a href="https://caniuse.com/" target="blank">Can I use</a>
+                </li>
+            </ul>
+        </nav>
+    </aside><!--
+--><main class="content">
+    <article id="this">
+        <h2>This page creating date</h2>
+        <p>24.09.2021</p>
+        <p>On this day, this greatest page in the entire Internet was created!</p>
+    </article>
+    <article id="wiki">
+        <h2>WIKI start working date</h2>
+        <p>15.01.2001</p>
+        <p>On this day, the second most important page on the Internet was created.</p>
+    </article>
+    <article id="earth">
+        <h2>Date of the earth's death</h2>
+        <a href="https://kakoysegodnyaprazdnik.com/content/den-22-fevralya-2022-goda-fakty-goroskop-lyudi.html" target="blank">22.02.2022</a>
+        <p>it's sad of course...</p>
+    </article>
+    <article id="war">
+        <h2>War and Peace</h2>
+        <p>1865–1867</p>
+        <p>
+            War and Peace is a literary work mixed with chapters on history and philosophy by the Russian author Leo Tolstoy,
+            first published serially, then published in its entirety in 1869.
+            It is regarded as one of Tolstoy's finest literary achievements and remains an internationally praised classic of world literature.
+        </p>
+    </article>
+    <section>
+        <h2>My favorite car brands:</h2>
+        <ul>
+            <li>McLaren</li>
+            <li>BMW</li>
+            <li>LADA</li>
+        </ul>
+        <h2>Programming skills</h2>
+        <ul>
+            <li>C++</li>
+            <li>C#</li>
+            <li>Java</li>
+            <li>Python</li>
+            <li>HTML</li>
+        </ul>
+    </section>
+    </main><!--
+--><div class="last-posts-div">
+        <aside class="last-posts">
+            <h2>Last posts</h2>
+            <nav>
+                <ul class="last-posts-list">
+                    <li>
+                        <a href="#wiki">WIKI start working date</a>
+                    </li>
+                    <li>
+                        <a href="#earth">Date of the earth's death</a>
+                    </li>
+                    <li>
+                        <a href="#war">War and Peace</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+    </div>
 
-	    					<dt>Java: 15%</dt>
-	    					<dd><progress value="15" max="100"></progress></dd>
+    <footer class="footer">
+        <p>
+            If you want to contact me:
+            <a href="mailto:gadjimuradov.ruslan@gmail.com">gadjimuradov.ruslan@gmail.com</a>
+            <a href="https://github.com/crushwall" target="blank">github</a>
+        </p>
+    </footer>
+</body>
 
-	    					<dt>SQL: 20%</dt>
-	    					<dd><progress value="20" max="100"></progress></dd>
-						</dl>
-					</td>
-				</tr>
-				<tr>
-					<td><h2>Projects:</h2></td>
-					<td>
-						<p><a href="https://github.com/crushwall" target="blank">github</a></p>
-					</td>
-				</tr>
-			</table>
-		</section>
-	</body>
-	</html>
+</html>

@@ -1,4 +1,61 @@
-header {
-	text-align: center;
-    background-color: aquamarine;
+html,
+body {
+    width: 100%;
+    margin: 0;
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+.header {
+    text-align: center;
+    background-color: greenyellow;
+}
+
+.menu,
+.content,
+.last-posts-div {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+}
+
+.menu {
+    width: 20%;
+    padding-left: 10px;
+}
+
+.content {
+    border-left: 3px solid green;
+    width: 60%;
+    padding-left: 15px;
+}
+
+.last-posts-div {
+    position: relative;
+    width: 20%;
+}
+
+.last-posts {
+    border: 3px dashed green;
+    position: absolute;
+    right: 15px;
+    text-align: right;
+    padding: 0 10px 0 10px;
+}
+
+.menu-list,
+.last-posts-list {
+    list-style: none;
+    padding: 0;
+}
+
+a:hover {
+    color: green;
+}
+
+a:visited {
+    color: goldenrod;
+}
+
+.footer {
+    text-align: center;
 }
