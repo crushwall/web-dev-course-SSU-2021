@@ -28,6 +28,8 @@ article{
     padding: 10px;
     margin: 30px;
     text-align: center;
+    background-color: rgb(28, 28, 28);
+    background-clip: content-box;
 }
 
 input{
