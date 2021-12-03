@@ -1,0 +1,162 @@
+html{
+    background-color: rgb(22, 22, 22);
+    font-family: 'JetBrains Mono', sans-serif;
+}
+
+
+section{
+  overflow: hidden;
+}
+
+header{
+    width: 100%;
+    color: black;
+    text-align: center;
+    background-image: linear-gradient(90deg, goldenrod, purple, red);
+}
+
+article h2{
+    color: orange;
+}
+
+article h3{
+    color: orangered;
+}
+
+article{
+    border: dashed 3px darkgoldenrod;
+    padding: 10px;
+    margin: 30px;
+    text-align: center;
+}
+
+input{
+    background-color: rgb(22, 22, 22);
+    font-family: 'JetBrains Mono', sans-serif;
+    font-size: large;
+    border: solid 2px goldenrod;
+    border-radius: 8px;
+    color: goldenrod;
+}
+
+input[type="submit"] {
+    border: none;
+    color: black;
+    font-weight: bold;
+    background-color: darkgoldenrod;
+}
+
+input[type="submit"]:hover {
+    background-image: radial-gradient(ellipse at center,darkgoldenrod, gold);
+}
+
+input[type=number]{
+    border: none;
+    background-color: rgb(43, 43, 43);
+    
+    -moz-appearance: textfield;
+	-webkit-appearance: textfield;
+	appearance: textfield;
+    width: 115px;
+}
+
+input[type=number]::placeholder{
+    text-align: center;
+}
+
+h1{
+  text-align: center;
+  margin-top: 0.67em;
+  margin-bottom: 0.67em;
+}
+
+.container{
+  margin: auto;
+  width: 25%;
+  height: 450px;
+}
+
+.result{
+  padding: 24px 5px;
+  margin-bottom: 30px;
+  text-align: right;
+  font-size: 20px;
+  width: 96%;
+  height: 25px;
+  border: none;
+  border-radius: 8px;
+  background-color: rgb(43, 43, 43);
+}
+
+.first-row,
+.second-row,
+.third-row,
+.fourth-row,
+.conflict
+{
+  display: inline-block;
+  width: 100%;
+}
+
+.global{
+ padding: 15px;
+ font-weight: bold;
+ font-size: 16px;
+ border: none;
+ border-radius: 3px;
+ float: left;
+ width: 23.5%;
+ margin: 0 2px;
+}
+.conflict .left,
+.conflict .right{
+  float: left;
+  position: relative;
+}
+.left{
+  width: 74%;
+}
+.right{
+  width: 24%;
+}
+
+.zero{
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  float: left;
+  width: 97.7%;
+  margin: 0 2px;
+}
+
+.big{
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  float: left;
+  width: 64.5%;
+  margin: 0 2px;
+}
+
+.small{
+  padding: 15px;
+  font-weight: bold;
+  font-size: 16px;
+  border: none;
+  border-radius: 3px;
+  float: left;
+  width: 31.5%;
+  margin: 0 2px;
+}
+.plus{
+  height: 105px;
+  width: 97%;
+}
+
+.top-margin{
+  margin-top: 4px;
+}

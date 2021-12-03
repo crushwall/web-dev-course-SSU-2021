@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=JetBrains Mono">
+    <link rel="stylesheet" href="style.css">
+    <script src="8_1.js"></script>
+    <script src="8_2.js"></script>
+    <script src="8_3.js"></script>
+    <title>Task 9</title>
+</head>
+<body>
+    <header>
+        <h1>UTILITIES</h1>
+    </header>
+    <section>
+        <article>
+            <h2>Password generator</h2>
+            <input id="minLength" type="number" placeholder="min length" min="0">
+            <input id="maxLength" type="number" placeholder="max length" min="0">
+            <input type="submit" value="Generate" onclick="GeneratePasswordAndShow()">
+            <h3 id="password"/>
+        </article>
+        <article>
+            <h2>Counting game</h2>
+            <input id="count" type="number" placeholder="count" min="0">
+            <input id="step" type="number" placeholder="step" min="0">
+            <input type="submit" value="Start" onclick="StartCountingGammeAndShow()">
+            <h3 id="winner"/>
+        </article>
+        <article>
+            <h2>Calculator</h2>
+        
+            <div class="container">
+            <h3 id="result" class="result"></h3>
+              <div class="second-row">
+                <input type="submit" name="" value="7" class="global" onclick="Seven()">
+                <input type="submit" name="" value="8" class="global" onclick="Eight()">
+                <input type="submit" name="" value="9" class="global" onclick="Nine()">
+                <input type="submit" name="" value="/" class="global" onclick="Div()">
+              </div>
+              <div class="third-row">
+                <input type="submit" name="" value="4" class="global" onclick="Four()">
+                <input type="submit" name="" value="5" class="global" onclick="Five()">
+                <input type="submit" name="" value="6" class="global" onclick="Six()">
+                <input type="submit" name="" value="*" class="global" onclick="Mul()">
+              </div>
+              <div class="fourth-row">
+                <input type="submit" name="" value="1" class="global" onclick="One()">
+                <input type="submit" name="" value="2" class="global" onclick="Two()">
+                <input type="submit" name="" value="3" class="global" onclick="Three()">
+                <input type="submit" name="" value="-" class="global" onclick="Sub()">
+              </div>
+              <div class="conflict">
+                <div class="left">
+                  <input type="submit" name="" value="0" class=" zero" onclick="Zero()">
+                  <input type="submit" name="" value="Del" class="small top-margin" onclick="Delete()">
+                  <input type="submit" name="" value="=" class="big top-margin" onclick="Show()">
+                </div>
+                <div class="right">
+                  <input type="submit" name="" value="+" class="global plus" onclick="Add()">
+                </div>
+              </div>
+            </div>
+        </article>
+    </section>
+</body>
+</html>
